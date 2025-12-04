@@ -22,12 +22,7 @@ In this project, we deploy a **ChatGPT-Clone App** using:
 * **Trivy (security scanning)**
 * **Docker (build + deploy)**
 
-📌 *No Kubernetes required — simplified Docker deployment.*
 
-GitHub Project Used:
-👉 [https://github.com/Aakibgithuber/Chat-gpt-deployment](https://github.com/Aakibgithuber/Chat-gpt-deployment)
-
----
 
 # ✅ **STEP 1 — Launch EC2 Instance**
 
@@ -179,7 +174,7 @@ pipeline {
 
         stage('Pull Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Aakibgithuber/Chat-gpt-deployment.git'
+                git branch: 'main', url: 'https://github.com/abhipraydhoble/doesntmatter.git'
             }
         }
 
